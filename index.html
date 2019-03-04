@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Index Práctica - Rafael Marcos Lucero</title>
+        <style>
+            ul,ol{list-style:none}
+            h1,h2,h3,h4,h5,h6,pre,code{font-size:1em;}
+            ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset{
+            margin:0;padding:0;line-height:1; list-style:none;}
+            a img,:link img,:visited img, fieldset{border:none;}
+            input[type=submit], input[type=reset], input[type=button] { *filter:chroma(color=#000000); }
+                
+            body
+            {
+                font-family:Helvetica;
+                font-size:14px; 
+                color:#464343;
+            }
+            h1 {margin-bottom:10px; font-family:Arial; font-size:18px; color: orange; }
+            p {margin-bottom:30px; line-height:140%; }
+            strong {font-weight:bold; }
+            em {color:orange; }
+
+            .header 
+            {
+                position:relative;
+                height:130px;  
+                border-bottom:solid 1px orange;
+            }
+            .title-header {position:absolute; top:35px; left:40px; font-family:Arial; font-size:44px; color: grey; }
+            .sub-header {position:absolute; top:102px; left:40px; font-size:16px; color:orange; }
+            .master {position:absolute; top:85px; left:1250px; font-size:12px;}
+            .module {position:absolute; top:105px; left:1318px; font-size:12px;}
+
+            .content
+            {
+                width: 900px;
+                margin: auto;
+                margin-top:75px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <p class="title-header"><strong>My maps</strong></p>
+            <p class="sub-header"><a href="https://github.com/rmluc/maps-geoweb">GitHub repository</a></p>
+            <p class="master">Máster en Sistemas de Información Geográfica</p>
+            <p class="module">Tecnologías Geoweb y Open Data</p>
+
+        </div>
+
+        <div class="content">
+                <p><strong>1. Choropleth map of Human Developent Index</strong></p>
+                <p>World map displaying countries´ Human Development Index. Data were retrieved from 2018 <a href="http://hdr.undp.org/sites/default/files/2018_human_development_statistical_update.pdf">UNDP report</a> and added to a shapefile previously downloaded from <a href="https://www.naturalearthdata.com/downloads/10m-cultural-vectors/">Natural Earth Data website</a>. Countries are classified by UNDP into four categories according to the index´s value: (1) very high, (2) high, (3) medium and (4) low human development. Different colors represent those four groups as displayed in the map´s legend.</p>
+                <p><img src="map-hdi.jpg"/><p>
+                <p><a href="leaflet-hdi-map.html"> Link to map</a></p>
+        </div>
+    </body>
+</html>
